@@ -1,0 +1,22 @@
+{
+  "name": "blademaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/deploy.js",
+  "author": "Christian Nikolov",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "demolisher": "^1.0.0",
+    "commander": "^2.9.0",
+    "mkdirp": "^0.5.1",
+    "serverlog": "^1.1.0"
+  },
+  "scripts": {
+    "demolisher": "build"
+  },
+  "bin": {
+    "deploy": "./bin/deploy.js",
+    "blademaster": "./bin/deploy.js"
+  }
+}
