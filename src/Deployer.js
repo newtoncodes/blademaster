@@ -51,7 +51,7 @@ class Deployer {
     build(path, dest, cfg, callback) {
         console.info.log('Building ' + path + '...\n');
 
-        run(__dirname, ['npm run builder ' + path + ' ' + dest + ' ' + cfg], (error, output) => {
+        run(__dirname, ['npm run demolisher ' + path + ' ' + dest + ' ' + cfg], (error, output) => {
             if (error) console.error.log('Error during build.');
             else console.success.log('Build ready.');
 
